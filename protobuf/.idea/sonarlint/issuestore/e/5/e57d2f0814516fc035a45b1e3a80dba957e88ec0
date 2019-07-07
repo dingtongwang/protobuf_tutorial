@@ -1,0 +1,11 @@
+
+Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8İ€ù˜»-
+esquid:UselessImportCheck
+"5Remove this unused import 'java.nio.charset.Charset'.(ü¶ØŸıÿÿÿÿ8ïÚğ®-
+lsquid:UselessImportCheck	"ARemove this unused import 'java.io.UnsupportedEncodingException'.(Ãµ…“8‡Àï®-
+Xsquid:UselessImportCheck"-Remove this unused import 'java.util.Base64'.(ëŠ»Õ8ìœ–ğ®-
+[squid:UselessImportCheck"0Remove this unused import 'java.io.InputStream'.(¹»º8ÿÉ¶ï®-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÒÒğé8£ğôğ®-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¬Æ³ßûÿÿÿÿ8¥ÈÉó®-
