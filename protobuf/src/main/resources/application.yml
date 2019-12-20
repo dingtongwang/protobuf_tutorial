@@ -1,4 +1,18 @@
 spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/person_info
+    username: person
+    password: local
+  jpa:
+    hibernate:
+      ddl-auto: none
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        enable_lazy_load_no_trans: true
+#  flyway:
+#    enabled: true
+#    locations: classpath:db/migration
   kafka:
     consumer:
       bootstrap-servers: localhost:9092
@@ -10,3 +24,8 @@ spring:
       bootstrap-servers: localhost:9092
       key-serializer: org.apache.kafka.common.serialization.ByteArraySerializer
       value-serializer: org.apache.kafka.common.serialization.ByteArraySerializer
+management:
+  endpoints:
+    web:
+      exposure:
+        include=prometheus:
