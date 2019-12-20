@@ -1,2 +1,0 @@
-INSERT INTO person(first_name, last_name, birth_date, country, city, postal_code, street, house_no, flat_no)
- VALUES('ding', 'tongwang', '1990-05-16', 'china', 'xinyang', '', '长竹园乡大埠河村', '192939', '');

@@ -1,2 +1,0 @@
-INSERT INTO book(description, title) VALUES('Hello Koding 1', 'Simple coding examples and tutorials 1');
-INSERT INTO book(description, title) VALUES('Hello Koding 2', 'Simple coding examples and tutorials 2');
